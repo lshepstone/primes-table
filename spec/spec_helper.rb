@@ -2,6 +2,7 @@ ENV['PATH'] = "#{File.expand_path('../../bin', __FILE__)}#{File::PATH_SEPARATOR}
 
 require 'aruba'
 require 'aruba/api'
+require 'primes_table'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
