@@ -2,4 +2,4 @@
 
 require 'primes_table'
 
-PrimesTable::Console.new(ARGV).print_primes_table
+PrimesTable::Console.new.print_primes_table
