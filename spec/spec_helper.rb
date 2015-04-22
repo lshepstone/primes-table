@@ -1,3 +1,5 @@
+ENV['PATH'] = "#{File.expand_path('../../bin', __FILE__)}#{File::PATH_SEPARATOR}#{ENV['PATH']}"
+
 require 'aruba'
 require 'aruba/api'
 
